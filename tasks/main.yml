@@ -3,7 +3,7 @@
 
 - name: Install Docker
   include_role:
-    name: docker
+    name: alexandrefimov.docker_role
 
 - name: Generate balancer config file
   template: src=load_balancer.j2 dest=/home/ec2-user/nginx.conf
