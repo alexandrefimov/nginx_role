@@ -26,6 +26,6 @@
     networks:
       - name: app_and_balancer
     ports:
-      - "80:80"
+      - "81:80"
 
 
